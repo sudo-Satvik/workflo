@@ -1,0 +1,70 @@
+:root {
+  /* Blue Marguerite Color Palette */
+  --blue-marguerite-50: #f2f3fb;
+  --blue-marguerite-100: #e7e8f8;
+  --blue-marguerite-200: #d4d5f1;
+  --blue-marguerite-300: #b9b9e8;
+  --blue-marguerite-400: #a19ddc;
+  --blue-marguerite-500: #8e84d0;
+  --blue-marguerite-600: #7c69bf;
+  --blue-marguerite-700: #6d5aa8;
+  --blue-marguerite-800: #594b88;
+  --blue-marguerite-900: #4a416e;
+  --blue-marguerite-950: #2c2640;
+
+  /* Semantic Color Usage */
+  --primary: var(--blue-marguerite-600);
+  --primary-light: var(--blue-marguerite-400);
+  --primary-dark: var(--blue-marguerite-800);
+
+  --background: var(--blue-marguerite-50);
+  --background-alt: var(--blue-marguerite-100);
+
+  --text-primary: var(--blue-marguerite-950);
+  --text-secondary: var(--blue-marguerite-800);
+  --text-muted: var(--blue-marguerite-600);
+
+  --border: var(--blue-marguerite-200);
+  --border-hover: var(--blue-marguerite-300);
+
+  --focus-ring: var(--blue-marguerite-400);
+}
+
+/* Utility Classes */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-primary-light {
+  background-color: var(--primary-light);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.border-primary {
+  border-color: var(--border);
+}
+
+.border-primary-hover:hover {
+  border-color: var(--border-hover);
+}
+
+/* Focus Styles */
+.focus-ring:focus {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
